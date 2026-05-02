@@ -1,0 +1,10 @@
+pandas==2.2.0
+numpy==1.26.0
+scikit-learn==1.4.0
+scipy==1.12.0
+faker==22.0.0
+sqlalchemy==2.0.0
+pyodbc==5.0.1
+python-dotenv==1.0.0
+jupyter==1.0.0
+pyarrow
