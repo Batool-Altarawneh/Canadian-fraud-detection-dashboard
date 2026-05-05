@@ -7,8 +7,8 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-fake = Faker('en_CA')
 Faker.seed(42)   # makes Faker results reproducible
+fake = Faker('en_CA')
 np.random.seed(42)
 
 
