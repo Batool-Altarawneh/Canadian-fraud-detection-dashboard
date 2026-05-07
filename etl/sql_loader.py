@@ -16,10 +16,10 @@ DIMS_PATH = '../data/processed/'
 
 
 TABLES_IN_ORDER = [
-    'DimCustomer',
-    'DimMerchant',
-    'DimDate',
-    'DimAlertType',
+   # 'DimCustomer',
+    #'DimMerchant',
+    #'DimDate',
+    #'DimAlertType',
     'FactTransaction',
 ]
 

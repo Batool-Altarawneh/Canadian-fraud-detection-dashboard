@@ -371,6 +371,7 @@ def build_fact_transaction(
         'transaction_hour',
         'is_weekend',
         'amount_zscore',
+        'risk_tier',
     ]
 
     fact = fact[fact_cols].copy()
