@@ -19,22 +19,22 @@ End-to-end fraud analytics pipeline built on a Canadianized version of the Kaggl
 
 
 ### Home
-![Home](powerbi/Images/Home.png)
- 
+![Home](powerbi/Home.png)
+
 ### Executive Overview
-![Executive Overview](powerbi/Images/Executive%20Overview.png)
- 
+![Executive Overview](powerbi/Executive%20Overview.png)
+
 ### Fraud Trends
-![Fraud Trends](powerbi/Images/Trends.png)
- 
+![Fraud Trends](powerbi/Trends.png)
+
 ### Geo Analysis
-![Geo Analysis](powerbi/Images/Geo%20Analysis.png)
- 
+![Geo Analysis](powerbi/Geo%20Analysis.png)
+
 ### Transaction Drill-Through
-![Transaction Drill-Through](powerbi/Images/Drill-Through.png)
- 
+![Transaction Drill-Through](powerbi/Drill-Through.png)
+
 ### ML Model Performance
-![ML Model Performance](powerbi/Images/ML%20Model.png)
+![ML Model Performance](powerbi/ML%20Model.png)
  
 
 ---
