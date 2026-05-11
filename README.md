@@ -15,6 +15,28 @@ End-to-end fraud analytics pipeline built on a Canadianized version of the Kaggl
 | Transaction Drill-Through | Row-level transaction detail with customer and merchant info |
 | ML Model Performance | XGBoost results, SHAP feature importance, risk tier breakdown |
 
+
+
+
+### Home
+![Home](powerbi/Images/Home.png)
+ 
+### Executive Overview
+![Executive Overview](powerbi/Images/Executive%20Overview.png)
+ 
+### Fraud Trends
+![Fraud Trends](powerbi/Images/Trends.png)
+ 
+### Geo Analysis
+![Geo Analysis](powerbi/Images/Geo%20Analysis.png)
+ 
+### Transaction Drill-Through
+![Transaction Drill-Through](powerbi/Images/Drill-Through.png)
+ 
+### ML Model Performance
+![ML Model Performance](powerbi/Images/ML%20Model.png)
+ 
+
 ---
 
 ## Project Stats
