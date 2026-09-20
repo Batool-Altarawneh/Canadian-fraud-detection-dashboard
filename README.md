@@ -28,10 +28,10 @@ End-to-end fraud analytics pipeline built on a Canadianized version of the Kaggl
 ![Fraud Trends](powerbi/Trends.png)
 
 ### Geo Analysis
-![Geo Analysis](powerbi/Geo%20Analysis.png)
+![Geo Analysis](powerbi/Geo.png)
 
 ### Transaction Drill-Through
-![Transaction Drill-Through](powerbi/Drill-Through.png)
+![Transaction Drill-Through](powerbi/Drill%20Through.png)
 
 ### ML Model Performance
 ![ML Model Performance](powerbi/ML%20Model.png)
@@ -103,29 +103,31 @@ canadian-fraud-detection-dashboard/
 │   │   ├── model_metadata.json     # Model card with all training details
 │   │   └── label_encoders.pkl      # Saved LabelEncoders for inference
 │   └── reports/
+│       ├── class_imbalance.png
 │       ├── step1_baseline_logreg.png
 │       ├── step2_random_forest.png
 │       ├── step2_xgboost.png
-│       ├── step2_model_comparison.png
-│       ├── step3a_threshold_tuning.png
-│       ├── step3b_confusion_matrices.png
-│       ├── step4a_shap_summary.png
-│       ├── step4b_shap_importance.png
-│       ├── step4c_shap_waterfall.png
-│       └── step5a_score_distribution.png
+│       ├── step_model_comparison.png
+│       ├── threshold_tuning.png
+│       ├── step_confusion_matrices.png
+│       ├── step4_shap_summary.png
+│       ├── step4_shap_importance.png
+│       ├── step4_shap_waterfall.png
+│       └── step5_score_distribution.png
 │
 ├── notebooks/
 │   └── explore.ipynb               # Initial data exploration
 │
 ├── powerbi/
-│   └── FraudDB.pbix                # Power BI report file
+│   ├── canadian-fraud-detection-dashboard.pbix  # Power BI report file
+│   └── *.png                       # Dashboard screenshots used in this README
 │
 ├── sql/
-│   ├── Create_FraudDB.sql          # Creates the FraudDB database
+│   ├── Create FraudDB.sql          # Creates the FraudDB database
 │   ├── create_tables.sql           # Star schema DDL (5 tables)
 │   ├── stored_procs.sql            # usp_GetFraudSummaryByProvince
 │   ├── analytical_queries.sql      # 5 analytical queries
-│   └── SSMS_Verification_Command.sql
+│   └── SSMS Verification Command.sql
 │
 ├── .gitignore
 ├── requirements.txt
@@ -192,7 +194,7 @@ The notebook `ml/fraud_detection_ml.ipynb` runs end to end in 5 steps:
 
 ```bash
 git clone https://github.com/Batool-Altarawneh/Canadian-fraud-detection-dashboard.git
-cd canadian-fraud-detection-dashboard
+cd Canadian-fraud-detection-dashboard
 python -m venv .venv
 .venv\Scripts\activate       
 pip install -r requirements.txt
@@ -211,7 +213,7 @@ SQL_DATABASE=FraudDB
 
 ```bash
 # 1. Create the database
-# Run sql/Create_FraudDB.sql in SSMS
+# Run "sql/Create FraudDB.sql" in SSMS
 
 # 2. Create the star schema tables
 # Run sql/create_tables.sql in SSMS
@@ -228,7 +230,7 @@ python etl/sql_loader.py
 # Open ml/fraud_detection_ml.ipynb and run all cells
 
 # 6. Open Power BI
-# Open powerbi/FraudDB.pbix
+# Open powerbi/canadian-fraud-detection-dashboard.pbix
 # Refresh data source connection
 ```
 
